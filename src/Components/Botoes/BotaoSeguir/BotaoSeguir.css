@@ -1,0 +1,22 @@
+.botao-seguir {
+  background-color: rgb(31, 165, 218);
+  width: 100px;
+}
+
+.botao-seguir:focus {
+  outline: none
+  
+}
+
+.estado-seguindo {
+  background-color: rgb(207, 207, 207);
+  width: 100px;
+}
+
+.estado-seguindo:focus {
+  outline: none
+}
+
+.botao-seguir:hover {
+   background-color: rgb(17, 123, 165);
+}

@@ -1,0 +1,96 @@
+.tabs-container {
+  display: flex;
+  width: 100%;
+  margin: 10px auto 0;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-bottom: 1px solid rgb(45, 216, 193);
+}
+
+.tabs-container .header {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.tabs-container .button-feed {
+  padding: 7px;
+  border-radius: 5px 5px 0 0 ;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid rgb(45, 216, 193);
+  position: absolute;
+  top:-5px;
+}
+
+.tabs-container .button-post {
+  padding: 7px;
+  border-radius: 5px 5px 0 0 ;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top:-5px;
+  left: 83px;
+}
+
+.tabs-container .button-feed.active {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(45, 216, 193);
+  border-right: 1px solid rgb(45, 216, 193);
+  border-left: 1px solid rgb(45, 216, 193);
+  border-bottom: none;
+  color: rgb(7, 58, 49);;
+  outline: none;
+  width: 60px;
+  height: 36px;
+  font-size: 16px;
+  background-color: rgb(220, 247, 243);
+}
+
+
+
+.tabs-container .button-post.active {
+  border-top: 1px solid rgb(45, 216, 193);
+  border-right: 1px solid rgb(45, 216, 193);
+  border-left: 1px solid rgb(45, 216, 193);
+  border-bottom: none;
+  color: rgb(7, 58, 49);;
+  outline: none;
+  font-size: 16px;
+  width: 110px;
+  background-color: rgb(199, 243, 237);
+}
+
+.tabs-container .button-post.inactive {
+  display: flex;
+  background-color: rgb(226, 226, 226);
+  justify-content: center;
+  border-top: 1px solid rgb(45, 216, 193);
+  border-right: 1px solid rgb(45, 216, 193);
+  border-left: 1px solid rgb(45, 216, 193);
+  border-bottom: 1px solid rgb(45, 216, 193);;
+  color: rgb(107, 106, 106);
+  font-size: 15px;
+  outline: none;
+  width: 110px;
+  height: 36px;
+}
+
+.tabs-container .button-feed.inactive {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+  border-top: 1px solid rgb(45, 216, 193);
+  border-right: 1px solid rgb(45, 216, 193);
+  border-left: 1px solid rgb(45, 216, 193);
+  border-bottom: 1px solid rgb(45, 216, 193);
+  background-color: rgb(226, 226, 226);
+  color: rgb(107, 106, 106);
+  outline: none;
+  width: 60px;
+  height: 36px;
+  font-size: 15px;
+}
+

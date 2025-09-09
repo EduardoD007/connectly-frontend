@@ -1,0 +1,13 @@
+.botao-excluir-feed {
+  color:rgb(116, 116, 116);
+  background:none;
+  border: none;
+  width: fit-content;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+.botao-excluir-feed:focus {
+  outline: none
+  
+}

@@ -1,0 +1,117 @@
+.feed-page-container {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(197, 197, 197);
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+  background-color: white;
+  min-width: 600px;
+  max-width: 600px;
+}
+
+  @media (max-width: 769px) {
+    .feed-page-container{
+      min-width:auto;
+    }
+  }
+
+.feed-page-container .user-info-feed {
+  display:flex;
+  position: relative;
+}
+
+.feed-page-container .user-name-feed {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  background-color: rgb(45, 216, 193);
+  border-radius: 5px 0px 0 0;
+  padding-left: 10%;
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.feed-page-container .feed-botao-excluir {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  width: 10%;
+  background-color: rgb(45, 216, 193);
+  border-radius: 0px 5px 0 0;
+  height: 30px;
+}
+
+.feed-page-container .img{
+  width: 64px;
+  position: absolute;
+  left: 5px;
+}
+
+.feed-page-container .feed-text-container {
+  margin: auto;
+  width: 95%;
+}
+
+.feed-page-container .text {
+  text-align: left;
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  
+  white-space: normal;     /* permite quebra de linha automática */
+  word-wrap: break-word;   /* quebra palavras longas */
+  overflow-wrap: break-word; 
+}
+
+.feed-page-container .img-feed-user-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.feed-page-container .img-feed-user {
+  position: relative;
+  width: 90%;
+}
+
+.feed-page-container .actions-center {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  align-items:end;
+}
+
+.feed-page-container .line-feed {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.feed-page-container .actions-center-curtidas {
+  display: flex;
+  gap: 20px;
+  align-items:end;
+  color: rgb(97, 97, 97);
+  font-style: italic;
+}
+
+.feed-page-container .actions-center-comentarios {
+  display: flex;
+  gap: 20px;
+  align-items:end;
+   color: rgb(97, 97, 97);
+  font-style: italic;
+}

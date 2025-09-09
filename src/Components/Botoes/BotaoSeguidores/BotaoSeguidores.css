@@ -1,0 +1,20 @@
+.botao-seguidores {
+  color: rgb(7, 58, 49);
+  font-weight: normal;
+  padding: 0;
+  background: none;
+  outline: none;
+  border:none;
+  margin-bottom: 10px;
+}
+
+.botao-seguidores:hover{
+  border: none;
+  color:rgb(103, 103, 201);
+  cursor:default
+}
+
+.botao-seguidores::after{
+  border: none;
+  
+}

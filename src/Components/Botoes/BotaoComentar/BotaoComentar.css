@@ -1,0 +1,15 @@
+.botao-comentar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-comentar {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 165, 218);
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+.simulador-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px;
+}
+
+.simulador-container .label {
+  background-color: rgb(45, 216, 193);
+  border-radius: 5px;
+  color: rgb(7, 58, 49);
+}
+
+.simulador-container select {
+  width: 90%;
+  background-color: rgb(248, 249, 250);
+  color: rgb(7, 58, 49);
+  height: 40px;
+  border: 1px solid rgb(226, 225, 225);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.simulador-container select::selection {
+   border: 1px solid rgb(226, 225, 225);
+}
+
+.simulador-container .linha-separação {
+  width: 100%;
+  border-bottom: 1px solid rgb(226, 225, 225);
+}
+

@@ -1,0 +1,12 @@
+.botao-excluir-alert {
+  text-align: right;
+  width: 20%;
+  color:rgb(116, 116, 116);
+  background:none;
+  border: none;
+}
+
+.botao-excluir-alert:focus {
+  outline: none
+  
+}

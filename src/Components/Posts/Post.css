@@ -1,0 +1,102 @@
+.post-page-container {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(197, 197, 197);
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+  background-color: white;
+  min-width: 600px;
+  max-width: 600px;
+}
+
+  @media (max-width: 769px) {
+    .post-page-container{
+      min-width:auto;
+    }
+  }
+
+.post-page-container .user-info-post{
+  display:flex;
+  position: relative;
+}
+
+.post-page-container .user-name-post{
+  width: 100%;
+  background-color: rgb(45, 216, 193);
+  border-radius: 5px 5px 0 0;
+}
+
+.post-page-container .img{
+  width: 64px;
+  position: absolute;
+  left: 5px;
+}
+
+.post-page-container .post-text-container {
+  margin: auto;
+  width: 95%;
+}
+
+.post-page-container .text {
+  text-align: left;
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  
+  white-space: normal;     /* permite quebra de linha automática */
+  word-wrap: break-word;   /* quebra palavras longas */
+  overflow-wrap: break-word; 
+}
+
+.post-page-container .img-post-user-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.post-page-container .img-post-user {
+  position: relative;
+  width: 90%;
+}
+
+.post-page-container .actions-center {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  align-items:end;
+}
+
+.post-page-container .line-post {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.post-page-container .actions-center-curtidas {
+  display: flex;
+  gap: 20px;
+  align-items:end;
+  color: rgb(97, 97, 97);
+  font-style: italic;
+}
+
+.post-page-container .actions-center-comentarios {
+  display: flex;
+  gap: 20px;
+  align-items:end;
+   color: rgb(97, 97, 97);
+  font-style: italic;
+}

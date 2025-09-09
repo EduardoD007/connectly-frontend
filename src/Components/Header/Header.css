@@ -1,0 +1,25 @@
+.header-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    width: 99%;
+  }
+}
+
+.header-container .conteudo{
+  display: flex;
+  width: 100%;
+  background-color: rgb(45, 216, 193) ;
+  border-radius: 0px;
+  padding: 15px 0 15px 25px;
+}
+
+.header-container .img {
+  width: 180px;
+}
